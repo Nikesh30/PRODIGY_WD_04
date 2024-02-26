@@ -1,0 +1,117 @@
+/*.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body{
+    background-color: blueviolet
+}
+
+.container{
+    width: 90%;
+    max-width: 600px;
+    background: linear-gradient(135deg, #e63048,#f7f30f);
+    margin: 10px auto 0px;
+    padding: 50px 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.container .search_bar{
+    width: 75%;
+    border-radius: 15px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    cursor: text;
+}
+
+#search-button{
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    background-color: azure;
+    cursor: pointer;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 300px
+    ;
+}
+
+.weatherimg{
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 45px;
+}
+
+.temperature{
+    font-size: 3rem;
+}
+
+.city_name{
+    font-size: 2rem;
+}
+
+.col{
+    display: flex;
+    justify-content: space-around;
+}
+
+#humidity-img{
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 45px;
+}
+
+#wind-img{
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 45px;
+}
